@@ -1,5 +1,3 @@
-<!-- Comments in this document are rather informal so that I know what to ask you about on tuesday :D (you said something about me using html4 instead of html5 somewhere
- but I can't remember where, so if you see it, be sure to let me know what it was!)-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- From what I can tell, this is a better way to use flexbox (certaintly a visual improvement over last time!), but I'll be sure to ask on tuesday -->
+
 <div class="container">
     <h1>Tickets on Demand</h1>
 
-    <!-- the link tab on the left -->
+    
     <div class="page">
         <div class = "link">
             <p>Links to other upcoming concerts!</p>
@@ -31,7 +29,6 @@
         <div class = "form">
             <h3>please select number of tickets to purchase</h3>
 
-            <!-- code snippet uses W3 school code snippet as a reference (basically all code we haven't learned in class is from W3 schools or online videos with one exception in the second form) -->
             <form action="namesForm.php" method="get">
             <select name="number" id="numbers">
                 <option value="1">1</option>

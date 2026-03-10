@@ -1,10 +1,8 @@
-<!-- In class we didn't start every form with the DOCTYPE and head labels, I didn't know if we weren't meant to, so I put this here -->
 <link rel="stylesheet" href="style.css">
 
 <div class="container">
     <h1>Tickets on Demand</h1>
 
-    <!-- When you told us to avoid repetition I wasn't sure if that also applied to inter-form contents, so this will repeat on the third form as well -->
     <div class="page">
         <div class = "link">
         <p>Links to other upcoming concerts!</p>
@@ -26,13 +24,10 @@
                      $num = $_GET['number'];
                 ?>
 
-                <!-- Although I learned about hidden input fields through the W3 schools page, I eventually used ChatGPT to get unstuck on this below line, I didn't realise I could integrate php at the end 
-                 as the W3 schools page does not detail this, the rest of this document was made using my initiative, W3 schools and online tutorials -->
                 <input type="hidden" name="number" value="<?php echo $num; ?>">
 
                 <p>ticket 1: <input type="text" name="name1"></p>
 
-                <!-- PHP seems to have similar syntax to C#, my beloved, iteration and selection statements are very similar to those in C# (and I suppose other .NET languages too :D) -->
                 <?php
                     if ($num > 1) 
                     {
